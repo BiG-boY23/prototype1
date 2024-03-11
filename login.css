@@ -308,6 +308,7 @@
     color: #e4e4e4;
     transform: translateX(380px);
     transition: transform 0.5s ease;
+    overflow: hidden;
 }
 
 .forgot-box form {
