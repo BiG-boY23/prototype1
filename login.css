@@ -109,6 +109,7 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     color: #e4e4e4;
+    overflow: hidden;
 }
 
 .form-box h2{
