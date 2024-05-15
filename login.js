@@ -86,9 +86,9 @@ function login() {
     const username = document.getElementById('loginUsername').value;
     const password = document.getElementById('loginPassword').value;
 
-    const user = users.find(u => u.username === username && u.password === password);
+   
 
-    if (user) {
+    if (username === 'admin' && password === 'admin') {
         isAuthenticated = true;
         window.location.href = 'main.html';
         alert('Login successful!');
